@@ -1,2 +1,2 @@
-# kudibusz
-KudiBuszWeboldal
+# Kudibusz
+Kudi Busz Hivatalos Weboldal
