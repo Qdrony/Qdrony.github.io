@@ -406,6 +406,10 @@ h1 {
   color: var(--kudi-kék);
 }
 
+.nav-link-2.w--current:hover {
+  color: #03619fb3;
+}
+
 .nav-link-3 {
   color: var(--kudi-kék);
   font-weight: 600;
@@ -463,6 +467,15 @@ h1 {
   color: #03619fb3;
   background-color: #0000;
   border-color: #03619fb3;
+}
+
+.nav-link-6.w--current {
+  color: var(--kudi-kék);
+}
+
+.nav-link-6.w--current:hover {
+  color: #03619fb3;
+  -webkit-text-stroke-color: #03619fb3;
 }
 
 .nav-link-6.f-oldal-nav-gomb {
@@ -566,6 +579,7 @@ h1 {
   margin-right: auto;
   position: relative;
   top: -50px;
+  box-shadow: 10px 14px 12px #0000001f;
 }
 
 .div-block-4 {
@@ -831,7 +845,7 @@ h1 {
 }
 
 .container-10 {
-  max-width: 1060px;
+  max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -839,11 +853,28 @@ h1 {
 .foglal-s-heading {
   color: var(--kudi-kék);
   text-align: left;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+  margin-left: 0;
+  margin-right: 10px;
   font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 27px;
+}
+
+.foglal-s-heading.szezon-lis-heading {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 35px;
+}
+
+.foglal-s-heading.szezon-heading {
+  margin: 0 10px 20px;
+}
+
+.foglal-s-heading.foglal-s-heading-1 {
+  margin-left: 0;
 }
 
 .fogal-s-paragraph {
@@ -852,6 +883,11 @@ h1 {
   font-family: Open Sans, sans-serif;
   font-size: 20px;
   line-height: 40px;
+}
+
+.fogal-s-paragraph.szezon-paragraph {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .div-block-15 {
@@ -1006,6 +1042,81 @@ h1 {
   font-size: 16px;
 }
 
+.body-3 {
+  background-color: #f4f3ee;
+}
+
+.container-12 {
+  max-width: 1160px;
+}
+
+.container-13 {
+  display: flex;
+}
+
+.container-14 {
+  margin-top: 120px;
+  display: flex;
+}
+
+.image-9 {
+  max-width: 460px;
+  box-shadow: 10px 14px 12px #0000001f;
+}
+
+.div-block-18 {
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+.div-block-19 {
+  align-self: center;
+  margin-right: 10px;
+}
+
+.div-block-20 {
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+.szezon-lis-paragraph {
+  color: var(--kudi-kék);
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.image-10 {
+  max-width: 460px;
+  box-shadow: 10px 14px 12px #0000001f;
+}
+
+.szezon-lis-heading-2 {
+  color: var(--kudi-kék);
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: Open Sans, sans-serif;
+  font-size: 25px;
+}
+
+.div-block-21 {
+  align-self: center;
+}
+
+.div-block-22 {
+  background-color: var(--kudi-kék);
+  max-width: 1160px;
+  height: 1px;
+  margin: 100px 10px 60px;
+}
+
+.container-15 {
+  max-width: 1160px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 991px) {
   .hero-r-sz {
     min-height: auto;
@@ -1150,8 +1261,203 @@ h1 {
     min-width: 340px;
   }
 
+  .nav-menu-2 {
+    background-color: #03619f;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+    padding-left: 20px;
+    display: block;
+  }
+
+  .nav-link-2.aj-nlat-navlink {
+    color: var(--white);
+  }
+
+  .nav-link-2.aj-nlat-navlink:hover {
+    color: #ffffffb3;
+  }
+
+  .nav-link-2.ajnlat-navlink-3 {
+    color: var(--white);
+  }
+
+  .nav-link-2.ajnlat-navlink-3:hover {
+    color: #ffffffb3;
+  }
+
+  .nav-link-2.aj-nlat-navlink-4 {
+    color: var(--white);
+  }
+
+  .nav-link-2.aj-nlat-navlink-4:hover {
+    color: #ffffffb3;
+  }
+
+  .nav-link-3.aj-nlat-navlink-2 {
+    color: var(--white);
+  }
+
+  .nav-link-3.aj-nlat-navlink-2:hover {
+    color: #ffffffb3;
+  }
+
+  .nav-link-6 {
+    margin-left: 0;
+  }
+
+  .nav-link-6.f-oldal-nav-gomb {
+    margin-left: 0;
+    display: block;
+  }
+
+  .nav-link-6.aj-nlat-navlink-gomb {
+    color: var(--white);
+    text-align: left;
+    background-color: #fff0;
+  }
+
+  .nav-link-6.aj-nlat-navlink-gomb:hover {
+    color: #ffffffb3;
+  }
+
+  .container-4 {
+    margin-top: -140px;
+  }
+
+  .navbar-container {
+    margin-top: 0;
+  }
+
   .div-block-5 {
     padding-right: 30px;
+  }
+
+  .paragraph-8 {
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+
+  .div-block-7 {
+    align-self: flex-start;
+    min-width: 140px;
+    margin-left: 10px;
+  }
+
+  .div-block-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .section-3 {
+    height: 270px;
+  }
+
+  .container-9 {
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .div-block-12 {
+    margin-right: 10px;
+  }
+
+  .div-block-13 {
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+
+  .div-block-14 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .foglal-s-heading {
+    margin-left: 0;
+  }
+
+  .foglal-s-heading.szezon-lis-heading {
+    line-height: 33px;
+  }
+
+  .foglal-s-heading.szezon-heading {
+    margin-left: 10px;
+  }
+
+  .fogal-s-paragraph.szezon-paragraph {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .f-oldal-nav {
+    padding-bottom: 0;
+  }
+
+  .div-block-18, .div-block-20 {
+    margin-right: 50px;
+  }
+
+  .szezon-lis-heading-2 {
+    line-height: 30px;
+  }
+
+  .image-11 {
+    display: none;
+  }
+
+  .menu-button-2 {
+    background-color: #03619f66;
+    border: 1px solid #fff;
+    border-radius: 15px;
+  }
+
+  .menu-button-2:hover {
+    background-color: #03619f33;
+    border-color: #ffffff80;
+  }
+
+  .menu-button-2.w--open {
+    background-color: #03619f66;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    transition: opacity .2s;
+  }
+
+  .menu-button-2.w--open:hover {
+    background-color: #03619f33;
+    border-color: #ffffff80;
+  }
+
+  .icon {
+    border: 0px solid var(--white);
+    color: var(--white);
+  }
+
+  .icon-2 {
+    color: var(--kudi-kék);
+  }
+
+  .menu-button-3 {
+    background-color: #c8c8c8;
+  }
+
+  .menu-button-3.w--open, .menu-button-3.foglal-s-navgomb {
+    background-color: #0000;
+  }
+
+  .icon-3 {
+    color: var(--kudi-kék);
+  }
+
+  .menu-button-4 {
+    background-color: #c8c8c8;
+  }
+
+  .menu-button-4.w--open {
+    background-color: #0000;
   }
 }
 
@@ -1326,6 +1632,155 @@ h1 {
     display: block;
     position: static;
   }
+
+  .heading-7 {
+    margin-bottom: 10px;
+  }
+
+  .paragraph-6 {
+    margin-bottom: 30px;
+  }
+
+  .paragraph-8 {
+    margin-left: 10px;
+  }
+
+  .container-7 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-block-7 {
+    align-self: flex-start;
+  }
+
+  .image-7 {
+    display: none;
+  }
+
+  .div-block-8 {
+    margin-bottom: 0;
+  }
+
+  .image-8 {
+    display: none;
+  }
+
+  .div-block-9 {
+    margin-bottom: 0;
+  }
+
+  .section-3 {
+    height: 190px;
+  }
+
+  .lentlink2 {
+    font-size: 13px;
+  }
+
+  .div-block-11 {
+    margin-left: -50px;
+    padding-right: 0;
+  }
+
+  .div-block-12 {
+    margin-top: 0;
+    margin-left: -50px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+  }
+
+  .div-block-13 {
+    margin-right: 30px;
+  }
+
+  .paragraph-12 {
+    color: #fff;
+  }
+
+  .paragraph-13, .paragraph-14 {
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .div-block-14 {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .foglal-s-heading {
+    margin-left: 0;
+  }
+
+  .foglal-s-heading.szezon-heading {
+    margin-bottom: 60px;
+  }
+
+  .container-14 {
+    margin-bottom: -40px;
+  }
+
+  .image-9 {
+    display: none;
+  }
+
+  .div-block-19 {
+    margin-bottom: -90px;
+    margin-left: -50px;
+  }
+
+  .image-10 {
+    display: none;
+  }
+
+  .div-block-21 {
+    margin-left: -50px;
+  }
+
+  .div-block-22 {
+    margin-bottom: 20px;
+  }
+
+  .div-block-23 {
+    margin-left: -30px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .div-block-24 {
+    margin-left: -50px;
+    margin-right: -10px;
+  }
+
+  .image-11 {
+    display: none;
+  }
+
+  .div-block-25 {
+    align-self: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .image-13 {
+    display: none;
+  }
+
+  .div-block-26 {
+    margin-left: -30px;
+  }
+
+  .div-block-27 {
+    margin-left: -50px;
+  }
+
+  .div-block-28 {
+    margin-left: -30px;
+  }
+
+  .div-block-29 {
+    margin-left: -50px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1471,6 +1926,126 @@ h1 {
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .paragraph-4, .button-4 {
+    margin-bottom: 20px;
+  }
+
+  .section-2 {
+    margin-top: 10px;
+  }
+
+  .container-5.overlap {
+    max-height: none;
+    margin-top: 90px;
+  }
+
+  .div-block-5 {
+    margin-top: 10px;
+  }
+
+  .heading-8 {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+  }
+
+  .container-8 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .button-5 {
+    margin-right: 10px;
+  }
+
+  .section-3 {
+    height: 370px;
+  }
+
+  .container-9 {
+    flex-flow: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .lentlink {
+    margin-left: 0;
+  }
+
+  .lentlink.w--current {
+    margin-left: -20px;
+  }
+
+  .div-block-11 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .div-block-12 {
+    margin-left: 0;
+  }
+
+  .foglal-s-heading.szezon-lis-heading {
+    line-height: 31px;
+  }
+
+  .section-4 {
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .container-11 {
+    margin-left: 50px;
+  }
+
+  .div-block-16 {
+    margin-left: -50px;
+    margin-right: 0;
+  }
+
+  .div-block-23 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .div-block-24 {
+    margin-left: 0;
+  }
+
+  .image-12 {
+    display: none;
+  }
+
+  .div-block-26 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .div-block-27 {
+    margin-bottom: -10px;
+    margin-left: 0;
+  }
+
+  .image-14 {
+    display: none;
+  }
+
+  .div-block-28 {
+    margin-left: 20px;
+  }
+
+  .div-block-29 {
+    margin-left: 0;
+  }
+
+  .image-15 {
+    display: none;
   }
 }
 

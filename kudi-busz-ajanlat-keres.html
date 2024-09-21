@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Sep 16 2024 12:44:57 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sat Sep 21 2024 14:43:02 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="66e8138af98bcd97b4660566" data-wf-site="65c78124a209c887ed273a4c">
 <head>
   <meta charset="utf-8">
@@ -25,20 +25,20 @@
         <div class="container-3 w-container">
           <a href="#" class="brand-2 w-nav-brand"><img src="images/logo1_laila-1-1.svg" loading="lazy" alt="" class="image-6"></a>
           <nav role="navigation" class="nav-menu-2 w-nav-menu">
-            <a href="index.html" class="nav-link-2 w-nav-link">Főoldal</a>
-            <a href="#" class="nav-link-3 w-nav-link">Bemutatkozás</a>
-            <a href="#" class="nav-link-2 w-nav-link">Szolgáltatások</a>
-            <a href="#" class="nav-link-2 w-nav-link">Szezonális utak</a>
-            <a href="#" class="nav-link-6 w-nav-link">Ajánlat kérése</a>
+            <a href="index.html" class="nav-link-2 aj-nlat-navlink w-nav-link">Főoldal</a>
+            <a href="https://kudibusz.hu/index.html#bemutatkoz-s" class="nav-link-3 aj-nlat-navlink-2 w-nav-link">Bemutatkozás</a>
+            <a href="https://kudibusz.hu/index.html#szolg-ltat-sok" class="nav-link-2 ajnlat-navlink-3 w-nav-link">Szolgáltatások</a>
+            <a href="kudi-busz-szezonalis-utak.html" class="nav-link-2 aj-nlat-navlink-4 w-nav-link">Szezonális utak</a>
+            <a href="kudi-busz-ajanlat-keres.html" aria-current="page" class="nav-link-6 aj-nlat-navlink-gomb w-nav-link w--current">Ajánlat kérése</a>
           </nav>
-          <div class="w-nav-button">
-            <div class="w-icon-nav-menu"></div>
+          <div class="menu-button-3 foglal-s-navgomb w-nav-button">
+            <div class="icon-2 w-icon-nav-menu"></div>
           </div>
         </div>
       </div>
     </div>
     <div class="w-layout-blockcontainer container-10 w-container">
-      <h1 class="foglal-s-heading">Kapcsolat:</h1>
+      <h1 class="foglal-s-heading foglal-s-heading-1">Kapcsolat:</h1>
       <p class="fogal-s-paragraph">Kudron István<br>Telefon: +36704231737<br>E-mail: isti.kudron@gmail.com</p>
     </div>
     <div class="div-block-15"></div>
@@ -49,32 +49,7 @@
         <h1 class="foglal-s-heading">Kérjen ajánlatot most!</h1>
         <p class="paragraph-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
         <div class="w-form">
-          <form action="https://formspree.io/f/mpwaenpk" method="post" id="email-form" name="email-form" data-name="Email Form"><input class="text-field w-input" maxlength="256" name="N-v" data-name="Név" placeholder="Név" type="text" id="N-v"><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="E-mail" type="email" id="email" ><input class="text-field-3 text-field-2 w-input" maxlength="256" name="Telefonsz-m" data-name="Telefonszám" placeholder="Telefonszám" type="tel" id="Telefonsz-m" ><textarea placeholder="Üzenet..." maxlength="5000" id="zenet" name="message" data-name="Üzenet" class="textarea w-input"></textarea><input type="submit" data-wait="Please wait..." class="nav-link-6 w-button" value="Submit"></form>
-          <script>
-            document.getElementById('email-form').addEventListener('submit', function(event) {
-              event.preventDefault();
-              const form = event.target;
-
-              // Post request küldése a Formspree URL-re
-              fetch(form.action, {
-                method: form.method,
-                body: new FormData(form),
-                headers: {
-                  'Accept': 'application/json'
-                }
-              }).then(response => {
-                if (response.ok) {
-                  // Form kiürítése
-                  form.reset();
-                  alert('Köszönjük! Az üzenetet elküldtük.');
-                } else {
-                  alert('A beküldés sikertelen volt.');
-                }
-              }).catch(error => {
-                alert('Hiba történt a beküldés során.');
-              });
-            });
-          </script>
+          <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66e8138af98bcd97b4660566" data-wf-element-id="501cf9ec-16b0-43d4-7dc4-283c7fe4307b"><input class="text-field w-input" maxlength="256" name="N-v" data-name="Név" placeholder="Név" type="text" id="N-v" required=""><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="E-mail" type="email" id="email" required=""><input class="text-field-3 text-field-2 w-input" maxlength="256" name="Telefonsz-m" data-name="Telefonszám" placeholder="Telefonszám" type="tel" id="Telefonsz-m" required=""><textarea placeholder="Üzenet..." maxlength="5000" id="zenet" name="zenet" data-name="Üzenet" class="textarea w-input"></textarea><input type="submit" data-wait="Please wait..." class="nav-link-6 w-button" value="Küldés"></form>
           <div class="success-message w-form-done">
             <div class="text-block-3">Köszönjük! Üzenetét megkaptuk és hamarosan felvesszük<br> önnel a kapcsolatot!</div>
           </div>
@@ -83,22 +58,22 @@
           </div>
         </div>
       </div>
-      <div class="div-block-17"><img src="images/foglalás-kép.png" loading="lazy" sizes="(max-width: 479px) 179.1999969482422px, (max-width: 991px) 58vw, 466px" srcset="images/foglalás-kép-p-500.png 500w, images/foglalás-kép-p-800.png 800w, images/foglalás-kép-p-1080.png 1080w, images/foglalás-kép.png 1178w" alt=""></div>
+      <div class="div-block-17"><img src="images/foglalás-kép.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 442.30682373046875px, (max-width: 991px) 58vw, 466px" srcset="images/foglalás-kép-p-500.png 500w, images/foglalás-kép-p-800.png 800w, images/foglalás-kép-p-1080.png 1080w, images/foglalás-kép.png 1178w" alt="" class="image-13"></div>
     </div>
   </section>
   <section class="section-3">
     <div class="w-layout-blockcontainer container-9 w-container">
-      <div class="div-block-13"><img src="images/világos-logo.svg" loading="lazy" alt=""></div>
-      <div>
-        <a href="#" class="lentlink">Főoldal</a>
+      <div class="div-block-13"><img src="images/világos-logo.svg" loading="lazy" alt="" class="image-14"></div>
+      <div class="div-block-26">
+        <a href="index.html" class="lentlink">Főoldal</a>
       </div>
-      <div>
-        <a href="#" class="lentlink">Bemutatkozás</a>
+      <div class="div-block-27">
+        <a href="https://kudibusz.hu/index.html#bemutatkoz-s" class="lentlink">Bemutatkozás</a>
       </div>
       <div class="div-block-11">
-        <a href="#" class="lentlink">Szolgáltatások</a>
-        <a href="#" class="lentlink2">Ajánlat kérése</a>
-        <a href="#" class="lentlink2">Szezonális utak</a>
+        <a href="https://kudibusz.hu/index.html#szolg-ltat-sok" class="lentlink">Szolgáltatások</a>
+        <a href="kudi-busz-ajanlat-keres.html" aria-current="page" class="lentlink2 w--current">Ajánlat kérése</a>
+        <a href="kudi-busz-szezonalis-utak.html" class="lentlink2">Szezonális utak</a>
       </div>
       <div class="div-block-12">
         <p class="paragraph-12">Kapcsolat</p>
