@@ -1856,9 +1856,21 @@ h1 {
 
   .section-6 {
     display: block;
+    overflow: hidden;
   }
 
-  .mask-2, .slider-2, .mask-3 {
+  .mask-2 {
+    background-color: #f4f3ee;
+    border-radius: 20px;
+  }
+
+  .slider-2 {
+    background-color: #f4f3ee;
+    border-radius: 20px;
+    overflow: visible;
+  }
+
+  .mask-3 {
     background-color: #f4f3ee;
     border-radius: 20px;
   }
@@ -1873,6 +1885,7 @@ h1 {
 
   .container-20 {
     display: block;
+    overflow: hidden;
   }
 
   .container-21, .div-block-39 {
@@ -2602,6 +2615,11 @@ h1 {
 
   .div-block-37 {
     align-self: flex-start;
+  }
+
+  .image-19 {
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
 
   .section-6 {
