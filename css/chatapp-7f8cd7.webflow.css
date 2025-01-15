@@ -388,7 +388,6 @@ h1 {
 
 .nav-menu-2 {
   color: #fff;
-  padding-left: 100px;
   font-family: Open Sans, sans-serif;
 }
 
@@ -1138,7 +1137,7 @@ h1 {
   background-color: var(--kudi-kék);
   max-width: 1160px;
   height: 1px;
-  margin: 100px 10px 60px;
+  margin: 100px auto 60px;
 }
 
 .container-15 {
@@ -2213,10 +2212,6 @@ h1 {
     margin-left: 0;
   }
 
-  .div-block-22 {
-    margin-bottom: 20px;
-  }
-
   .div-block-23 {
     margin-left: -30px;
     margin-right: 0;
@@ -2552,11 +2547,6 @@ h1 {
 
   .container-14 {
     margin-top: 120px;
-  }
-
-  .div-block-22 {
-    margin-top: 140px;
-    margin-bottom: 0;
   }
 
   .div-block-23 {
