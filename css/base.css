@@ -1,0 +1,63 @@
+:root {
+    --kudi-kék: #03619f;
+    --white: white;
+    --black: black;
+}
+
+.font-family-title{
+    font-family: "Patrick Hand", serif;
+    color: var(--kudi-kék);
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.font-family-text {
+    font-family: "Patrick Hand", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--kudi-kék);
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.font-family-text-bold-available {
+    font-family: "Patrick Hand", serif;
+    color: #127203;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.font-family-text-bold-unavailable {
+    font-family: "Patrick Hand", serif;
+    color: #d31313;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.margin-left{
+    margin-left: 25px;
+}
+
+.picture {
+    border-radius: 8px;
+    width: 80%;
+}
+
+.splitter{
+    background-color: var(--kudi-kék);
+    max-width: 1160px;
+    height: 1px;
+    margin: 60px auto 60px;
+}
+
+.list{
+    margin-bottom: 22px;
+}
+
+.accordion-button img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.accordion-button.active img {
+    transform: rotate(180deg);
+}

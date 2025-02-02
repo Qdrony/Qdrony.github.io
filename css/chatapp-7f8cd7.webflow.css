@@ -364,7 +364,7 @@ h1 {
 
 .container-3 {
   max-width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   margin-left: 20px;
   margin-right: 20px;
   padding-left: 0;
@@ -726,16 +726,17 @@ h1 {
 }
 
 .container-8 {
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px
 }
 
 .button-5 {
   color: #fff;
   background-color: #03619f;
   border-radius: 15px;
-  margin-right: 50px;
   font-family: Open Sans, sans-serif;
   font-size: 20px;
   transition: opacity .2s;
@@ -890,7 +891,8 @@ h1 {
 .foglal-s-heading.szezon-heading {
   text-align: center;
   margin: 0 10px 70px;
-  font-size: 45px;
+  font-size: 55px;
+  line-height: 55px;
 }
 
 .foglal-s-heading.foglal-s-heading-1 {
@@ -1098,7 +1100,6 @@ h1 {
 
 .div-block-19 {
   align-self: center;
-  margin-right: 10px;
 }
 
 .div-block-20 {
@@ -1110,7 +1111,7 @@ h1 {
 .szezon-lis-paragraph {
   color: var(--kudi-kék);
   font-family: Open Sans, sans-serif;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 400;
   line-height: 25px;
 }
@@ -1685,18 +1686,6 @@ h1 {
     margin-right: 10px;
   }
 
-  .foglal-s-heading {
-    margin-left: 0;
-  }
-
-  .foglal-s-heading.szezon-lis-heading {
-    line-height: 33px;
-  }
-
-  .foglal-s-heading.szezon-heading {
-    margin-left: 10px;
-  }
-
   .fogal-s-paragraph.szezon-paragraph {
     margin-left: 10px;
     margin-right: 10px;
@@ -2164,14 +2153,6 @@ h1 {
     margin-left: 10px;
   }
 
-  .foglal-s-heading {
-    margin-left: 0;
-  }
-
-  .foglal-s-heading.szezon-heading {
-    margin-bottom: 60px;
-  }
-
   .container-11 {
     flex-flow: column;
     margin-left: auto;
@@ -2458,15 +2439,9 @@ h1 {
     margin-top: 20px;
   }
 
-  .container-8 {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
   .button-5 {
     text-align: center;
     align-self: auto;
-    margin-right: 10px;
   }
 
   .button-6 {
@@ -2503,10 +2478,6 @@ h1 {
 
   .foglal-s-heading.szezon-lis-heading {
     line-height: 40px;
-  }
-
-  .foglal-s-heading.szezon-heading {
-    line-height: 50px;
   }
 
   .fogal-s-paragraph {
@@ -2695,5 +2666,3 @@ h1 {
     overflow: hidden;
   }
 }
-
-
