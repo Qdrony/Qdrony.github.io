@@ -81,11 +81,12 @@
               emailjs.send('service_uv0450d', 'template_eupi5cj', templateParams)
                       .then(function(response) {
                         console.log('SUCCESS!', response.status, response.text);
-                        alert('E-mail sikeresen elküldve!');
+                        alert('E-mail sikeresen elküldve! Hamarosan felveszük Önnel a kapcsolatot.');
                         document.getElementById('email-form').reset();
+                        window.location.href = "index.html";
                       }, function(error) {
                         console.log('FAILED...', error);
-                        alert('Hiba történt az e-mail küldésekor: ' + JSON.stringify(error));
+                        alert('Hiba történt az e-mail küldésekor. Kérjük vegye fel a kapcsolatot velünk emailben.');
                       });
             });
           </script>
