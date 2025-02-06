@@ -43,6 +43,17 @@
     width: 80%;
 }
 
+@media (min-width: 1024px) {
+    .picture {
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .margin-left {
+        margin: 20px 300px 20px;
+    }
+}
+
 .splitter{
     background-color: var(--kudi-kék);
     max-width: 1160px;

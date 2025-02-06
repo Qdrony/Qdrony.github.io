@@ -1,6 +1,11 @@
 .accordion {
     margin: 20px 0;
+}
 
+@media (min-width: 1024px) {
+    .accordion{
+        margin: 20px 200px 20px;
+    }
 }
 
 .accordion-button {
@@ -52,7 +57,7 @@
 }
 
 .mySlides img {
-    max-width: 30%; /* A képek maximális szélessége a szülő elemhez képest */
+    max-width: 50%; /* A képek maximális szélessége a szülő elemhez képest */
     height: auto; /* Megőrzi az arányokat */
     margin: 0 auto; /* Középre igazítja a képet */
     display: block; /* Középre igazításhoz szükséges */
