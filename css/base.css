@@ -8,7 +8,13 @@
     font-family: "Patrick Hand", serif;
     color: var(--kudi-kék);
     font-size: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.font-family-subtitle{
+    font-family: "Patrick Hand", serif;
+    color: var(--kudi-kék);
+    font-size: 22px;
 }
 
 .font-family-text {
@@ -38,6 +44,13 @@
     margin-left: 25px;
 }
 
+.div-main-picture{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+}
+
 .picture {
     border-radius: 8px;
     width: 80%;
@@ -62,6 +75,7 @@
 }
 
 .list{
+    margin-top: 15px;
     margin-bottom: 22px;
 }
 
