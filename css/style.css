@@ -8,7 +8,7 @@
 }
 
 /* Hide the images by default */
-.mySlides, .mySlidesFT, .mySlidesCST, .mySlidesM, .mySlidesT, .mySlidesJB, .mySlidesMB, .mySlidesLS {
+.mySlides, .mySlidesFT, .mySlidesCST, .mySlidesM, .mySlidesT, .mySlidesJB, .mySlidesMB, .mySlidesLS, .mySlidesTulip {
     display: none;
 }
 
@@ -61,7 +61,7 @@
 }
 
 /* The dots/bullets/indicators */
-.dot, .dotFT, .dotCST, .dotM, .dotT, .dotJB, .dotMB, .dotLS {
+.dot, .dotFT, .dotCST, .dotM, .dotT, .dotJB, .dotMB, .dotLS, .dotTulip {
     cursor: pointer;
     height: 15px;
     width: 15px;
